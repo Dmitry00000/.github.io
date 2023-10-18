@@ -1,0 +1,34 @@
+    <div class="itcss">
+        <div class="itcss__wrapper">
+          <div class="itcss__items">
+            <div class="itcss__item">
+              dfgdfgdfgdg
+            </div>
+            <div class="itcss__item">
+              dfgdfgdfdfg
+            </div>
+            <div class="itcss__item">
+              zez
+            </div>
+            <div class="itcss__item">
+              dfgdfgdgf
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-wrapper">
+        <button class="btn btn-prev">PREV</button>
+        <button class="btn btn-next">NEXT</button>
+      </div>
+
+          <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Кнопка выпадающего списка
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Действие</a></li>
+          <li><a class="dropdown-item" href="#">Другое действие</a></li>
+          <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+        </ul>
+      </div>

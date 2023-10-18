@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./SimpleAdaptiveSlider/simple-adaptive-slider.css">
+    <link rel="stylesheet" href="./interactive_elements//Another Slider/anotherSlider.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Test</title>
+</head>
+<body>
+      <div class="body__wrapper">
+        <header class="header" id="header">
+            <div class="header__wrapper">
+                <div class="header__flex-item logotype-item">
+                    <div class="logotype">
+                        <div class="logotype__title">VISMA</div>
+                    </div>
+                </div>
+                <div class="header__flex-item header__nav-body">
+                    <div class="header__nav">
+                        <nav class="header__nav-wrapper">
+                            <div class="header__nav-item"><a class="header__nav-item__link" href="#">Компания</a></div>
+                            <div class="header__nav-item"><a class="header__nav-item__link" href="#">Новости</a></div>
+                            <div class="header__nav-item"><a class="header__nav-item__link" href="#">Новости</a></div>
+                            <div class="header__nav-item"><a class="header__nav-item__link" href="#">Новости</a></div>
+                            <div class="header__nav-item"><a class="header__nav-item__link" href="#">Новости</a></div>
+                            <div class="header__nav-item"><a class="header__nav-item__link" href="#">Новости</a></div>
+                            <div class="header__nav-item"><a class="header__nav-item__link" href="#">Новости</a></div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="header__flex-item header__drop-down disabled">
+                    <div class="header__drop-down__pin">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="header__search-input-item__wrapper">
+                    <div class="search-input-item search-input__body">
+                        <div class="search-input__wrapper">
+                            <div class="header__search-item-wrapper flex-container">
+                                <div class="header__search-item__input-image">
+                                    <img src="./img/Glass.png">
+                                </div>
+                                <div class="header__search-item__input-body">
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-input-item search-input__language-item">
+                        <div class="header__change-language">
+                            <div class="header__change-language__wrapper">
+                                <select>
+                                    <option>RU</option>
+                                    <option>EN</option>
+                                    <option>UK</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__drop-down-body disabled">
+                <div class="header__drop-down-body__wrapper">
+                    <div class="header__drop-down-body__item">
+                        <div class="header__drop-down-body__content"><a class="header__nav-item__link" href="#">Компания</a></div>
+                    </div>
+                    <div class="header__drop-down-body__item">
+                        <div class="header__drop-down-body__content"><a class="header__nav-item__link" href="#">Новости</a></div>
+                    </div>
+                    <div class="header__drop-down-body__item">
+                        <div class="header__drop-down-body__content"><a class="header__nav-item__link" href="#">Новости</a></div>
+                    </div>
+                    <div class="header__drop-down-body__item">
+                        <div class="header__drop-down-body__content"><a class="header__nav-item__link" href="#">Новости</a></div>
+                    </div>
+                    <div class="header__drop-down-body__item">
+                        <div class="header__drop-down-body__content"><a class="header__nav-item__link" href="#">Новости</a></div>
+                    </div>
+                    <div class="header__drop-down-body__item">
+                        <div class="header__drop-down-body__content"><a class="header__nav-item__link" href="#">Новости</a></div>
+                    </div>
+                    <div class="header__drop-down-body__item last-element">
+                        <div class="header__drop-down-body__content"><a class="header__nav-item__link" href="#">Новости</a></div>
+                    </div>
+                    <div class="header__drop-down-wrapper flex-container">
+                        <div class="header__search-item__input-image">
+                            <img src="./img/Glass.png">
+                        </div>
+                        <div class="header__search-item__input-body">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+          <div class="fhoto-background">
+            <div class="fhoto-background__wrapper">
+                <div class="fhoto-background__flex-item fhoto-background__description">
+                    <div class="fhoto-background__text-item">
+                        <div class="fhoto-background__text-item__title">Тавимский морской порт VISMA</div>
+                        <div class="fhoto-background__text-item__description">Vel posuere nibh odio placerat massa vel tellus
+                            tortor. Varius eget nunc scelerisque etiam felis facilisi ante viverra sem. Nunc eros elementum.</div>
+
+                        <div class="fhoto-background__text-item__about-element">
+                            <div class="fhoto-background__text-item__about-wrapper">
+                                <div class="fhoto-background__text-item__about-text">О КОМПАНИИ</div>
+                                <div class="fhoto-background__text-item__about-arrow">
+                                    <div class="arrow-1">
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fhoto-background__flex-item fhoto-background__blocks">
+                    <div class="fhoto-background__flex-items__wrapper">
+                        <div class="fhoto-background__flex-items__item" animation-type="up-flex">
+                            <a class="fhoto-background__flex-items__item__wrapper">
+                                <div class="fhoto-background__flex-items__item__title style-block__title">УСЛУГИ</div>
+                                <div class="fhoto-background__flex-items__item__description style-block__description">Погрузочно-разгрузочная деятельность</div>
+                            </a>
+                        </div>
+                        <div class="fhoto-background__flex-items__item" animation-type="up-flex">
+                            <div class="fhoto-background__flex-items__item__wrapper">
+                                <div class="fhoto-background__flex-items__item__title style-block__title">УСЛУГИ</div>
+                                <div class="fhoto-background__flex-items__item__description style-block__description">Хранение грузов</div>
+                            </div>
+                        </div>
+                        <div class="fhoto-background__flex-items__item" animation-type="up-flex">
+                            <div class="fhoto-background__flex-items__item__wrapper">
+                                <div class="fhoto-background__flex-items__item__title style-block__title">УСЛУГИ</div>
+                                <div class="fhoto-background__flex-items__item__description style-block__description">Складские операции</div>
+                            </div>
+                        </div>
+                        <div class="fhoto-background__flex-items__item" animation-type="up-flex">
+                            <div class="fhoto-background__flex-items__item__wrapper">
+                                <div class="fhoto-background__flex-items__item__title style-block__title">УСЛУГИ</div>
+                                <div class="fhoto-background__flex-items__item__description style-block__description">Швартовые операции</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <div class="getstart disabled">
+        <div class="getstart__wrapper">
+            <div class="getstart__content">
+                <div class="getstart__arrow"></div>
+            </div>
+        </div>
+      </div>
+
+
+      <div class="services">
+        <div class="services__wrapper">
+            <div class="services__wrapper-item services__text-item">
+                <div class="services__text-item__wrapper">
+                    <div class="services__text-item__wrapper-item">
+                        <div class="services__text-item__wrapper-title page-h1">Услуги</div>
+                    </div>
+                    <div class="services__text-item__wrapper-item">
+                        <div class="services__service">
+                            <div class="services__service__wrapper">
+                                <div class="services__service__text services__service__wrapper-element"><a href="#">Тарифы на услуги по обеспечению контроля доступа на территорию VISMA на 2022 год</a></div>
+                                <div class="services__service__link services__service__wrapper-element"><a href="#">PDF</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__text-item__wrapper-item">
+                        <div class="services__service">
+                            <div class="services__service__wrapper">
+                                <div class="services__service__text services__service__wrapper-element"><a href="#">Условия определения цены договора и тарифа на работы</a></div>
+                                <div class="services__service__link services__service__wrapper-element"><a href="#">PDF</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__text-item__wrapper-item">
+                        <div class="services__service">
+                            <div class="services__service__wrapper">
+                                <div class="services__service__text services__service__wrapper-element"><a href="#">Договор перевалка (типовая форма)</a></div>
+                                <div class="services__service__link services__service__wrapper-element"><a href="#">PDF</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services__anchor"></div>
+            <div class="services__wrapper-item services__blocks-item">
+                <div class="services__blocks">
+                    <div class="blocks__wrapper">
+                        <div class="blocks__item">
+                            <div class="cardContainer">
+                                <div class="card">
+                                    <div class="front">
+                                        <div class="front__wrapper">
+                                            <div class="front__up">
+                                                <div class="up__wrapper">
+                                                    <div class="up__item-text">УСЛУГИ</div>
+                                                    <div class="up__item-button"><div class="but card-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="front__down">Хранение грузов</div>
+                                        </div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="back__wrapper">
+                                            <div class="back__up">
+                                                <div class="down__wrapper">
+                                                    <div class="down__item-text">ПОДРОБНОСТИ</div>
+                                                    <div class="down__item-button"><div class="butClose card-close-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="back__down">Подробнее по &zwj;<a href="#">ссылке</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocks__item">
+                            <div class="cardContainer">
+                                <div class="card">
+                                    <div class="front">
+                                        <div class="front__wrapper">
+                                            <div class="front__up">
+                                                <div class="up__wrapper">
+                                                    <div class="up__item-text">УСЛУГИ</div>
+                                                    <div class="up__item-button"><div class="but card-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="front__down">Швартовые операции</div>
+                                        </div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="back__wrapper">
+                                            <div class="back__up">
+                                                <div class="down__wrapper">
+                                                    <div class="down__item-text">ПОДРОБНОСТИ</div>
+                                                    <div class="down__item-button"><div class="butClose card-close-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="back__down">Подробнее по &zwj;<a href="#"> ссылке</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocks__item">
+                            <div class="cardContainer">
+                                <div class="card">
+                                    <div class="front">
+                                        <div class="front__wrapper">
+                                            <div class="front__up">
+                                                <div class="up__wrapper">
+                                                    <div class="up__item-text">УСЛУГИ</div>
+                                                    <div class="up__item-button"><div class="but card-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="front__down">Складские операции</div>
+                                        </div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="back__wrapper">
+                                            <div class="back__up">
+                                                <div class="down__wrapper">
+                                                    <div class="down__item-text">ПОДРОБНОСТИ</div>
+                                                    <div class="down__item-button"><div class="butClose card-close-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="back__down">Подробнее по &zwj;<a href="#"> ссылке</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocks__item">
+                            <div class="cardContainer">
+                                <div class="card">
+                                    <div class="front">
+                                        <div class="front__wrapper">
+                                            <div class="front__up">
+                                                <div class="up__wrapper">
+                                                    <div class="up__item-text">УСЛУГИ</div>
+                                                    <div class="up__item-button"><div class="but card-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="front__down">Агентское обслуживание судов</div>
+                                        </div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="back__wrapper">
+                                            <div class="back__up">
+                                                <div class="down__wrapper">
+                                                    <div class="down__item-text">ПОДРОБНОСТИ</div>
+                                                    <div class="down__item-button"><div class="butClose card-close-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="back__down">Подробнее по &zwj;<a href="#"> ссылке</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocks__item">
+                            <div class="cardContainer">
+                                <div class="card">
+                                    <div class="front">
+                                        <div class="front__wrapper">
+                                            <div class="front__up">
+                                                <div class="up__wrapper">
+                                                    <div class="up__item-text">УСЛУГИ</div>
+                                                    <div class="up__item-button"><div class="but card-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="front__down">Буксировка / сопровождение судов</div>
+                                        </div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="back__wrapper">
+                                            <div class="back__up">
+                                                <div class="down__wrapper">
+                                                    <div class="down__item-text">ПОДРОБНОСТИ</div>
+                                                    <div class="down__item-button"><div class="butClose card-close-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="back__down">Подробнее по &zwj;<a href="#"> ссылке</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocks__item">
+                            <div class="cardContainer">
+                                <div class="card">
+                                    <div class="front">
+                                        <div class="front__wrapper">
+                                            <div class="front__up">
+                                                <div class="up__wrapper">
+                                                    <div class="up__item-text">УСЛУГИ</div>
+                                                    <div class="up__item-button"><div class="but card-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="front__down">Погрузочно разгрузочная деятельность</div>
+                                        </div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="back__wrapper">
+                                            <div class="back__up">
+                                                <div class="down__wrapper">
+                                                    <div class="down__item-text">ПОДРОБНОСТИ</div>
+                                                    <div class="down__item-button"><div class="butClose card-close-button"></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="back__down">Подробнее по &zwj;<a href="#"> ссылке</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="c-description">
+        <div class="c-description__wrapper">
+            <div class="c-description__left">
+              <div class="left__wrapper flex-c">
+                <div class="left__title page-h1">О компании</div>
+                <div class="left__listing">
+                  <div class="listing__up-description">Tristique orci consectetur sit felis. Sed ac auctor tellus lobortis. 
+                    Enim non turpis nulla nec a sapien sit amet molestie. Et id malesuada gravida sit volutpat. 
+                    Volutpat sed lectus elementum diam neque facilisis in. Convallis nibh sem in viverra quis. Interdum pharetra.</div>
+                  <div class="listing__main">
+                    <div class="main__wrapper flex-c">
+                      <div class="main__item flex-c">
+                        <div class="main__title">
+                          <div class="title__wrapper">
+                            <div class="title__element">Libero nunc porttitor id mi convallis ultricies convallis erat. At sagittis nisi at in diam sit.</div>
+                            <div class="title__element">
+                              <div class="triangle-right disabled" show-items-button="c-description-main"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="main__content" show-items="c-description-main">
+                          <ul>
+                            <li><div class='list-b'></div>Vivamus tincidunt non lectus odio magna semper odio risus.</li>
+                            <li><div class='list-b'></div>Vivamus tincidunt non lectus odio magna semper odio risus.</li>
+                            <li><div class='list-b'></div>Vivamus tincidunt non lectus odio magna semper odio risus. Vivamus tincidunt non lectus odio magna semper odio risus.
+                              Vivamus tincidunt non lectus odio magna semper odio risus.</li>
+                            <li><div class='list-b'></div>Vivamus tincidunt non lectus odio magna semper odio risus.</li>
+                            <li><div class='list-b'></div>Vivamus tincidunt non lectus odio magna semper odio risus.</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="main__item flex-c">
+                        <div class="main__title">
+                          <div class="title__wrapper">
+                            <div class="title__element">Libero nunc porttitor id mi convallis ultricies convallis erat.</div>
+                            <div class="title__element">
+                              <div class="triangle-right disabled" show-items-button="c-description-main"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="main__content" show-items="c-description-main">
+                          <ul>
+                            <li><div class='list-b'></div>tincidunt non lectus odio magna semper odio risus.</li>
+                            <li><div class='list-b'></div>Vivamus tincidunt non lectus odio magna semper odio risus.</li>
+                            <li><div class='list-b'></div>Vivamus tincidunt non lectus odio magna semper odio risus.</li>
+                            <li><div class='list-b'></div>Vivamus tincidunt non lectus odio magna semper odio risus.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-description__right">
+              <div class="right__wrapper">
+                <div class="right__item">
+                  <div class="right__video">
+                    <div class="video__container">
+                      <div class="video__body">
+                        <img src="./img/shipForVideo.jpg" alt="">
+                      </div>
+                      <div class="video__arrow"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right__item rigth__item_down">
+                  <div class="right__response-blocks">
+                    <div class="response-blocks__wrapper flex-c">
+                      <div class="response-blocks__item block-title">Запрос ставки и условий погрузочно-разгрузочных работ</div>
+                      <div class="response-blocks__item">Рассчитайте моментально стоимость полных портовых услуг в порту VISMA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="news">
+        <div class="news__wrapper">
+          <div class="news__up-content">
+            <div class="up-content__wrapper">
+              <div class="up-content__item">
+                <div class="item__title page-h1">Новости</div>
+              </div>
+              <div class="up-content__item">
+                <div class="item__wrapper">
+                  <div class="item__arrow">
+                    <div class="arrow__wrapper">
+                      <div class="arrow__title"><a href="#">ВСЕ НОВОСТИ</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news__down-content">
+            <div class="down-content__wrapper">
+              <div class="itc-slider" data-slider="itc-slider">
+                <div class="itc-slider__wrapper">
+                  <div class="itc-slider__items">
+                    <div class="itc-slider__item">
+                     <div class="item-i">
+                      <div class="item-i__wrapper">
+                        <div class="item-i__up">
+                          <div class="up-i__fhoto">
+                            <div class="fhoto__content">
+                              <img src="./img/SliderPhoto[1].png" alt="фото">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item-i__down">
+                          <div class="down__wrapper">
+                            <div class="down__date">20/1/2020</div>
+                            <div class="down__title">Semper eu pulvinar eget integer semper eu pulvinar eget integer</div>
+                            <div class="down__description">Pretium duis phasellus netus ac. Nunc nibh nunc integer 
+                              feugiat et aliquam cras. Amet pharetra montes ipsum gravida tellus tellus.</div>
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+                    </div>
+                    <div class="itc-slider__item">
+                      <div class="item-i">
+                        <div class="item-i__wrapper">
+                          <div class="item-i__up">
+                            <div class="up-i__fhoto">
+                              <div class="fhoto__content">
+                                <img src="./img/SliderPhoto[2].jpg" alt="фото">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="item-i__down">
+                            <div class="down__wrapper">
+                              <div class="down__date">20/2/2020</div>
+                              <div class="down__title">Semper eu pulvinar eget integer</div>
+                              <div class="down__description">Pretium duis phasellus netus ac. Nunc nibh nunc integer 
+                                feugiat et aliquam cras. Amet pharetra montes ipsum gravida tellus tellus.</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="itc-slider__item">
+                      <div class="item-i">
+                        <div class="item-i__wrapper">
+                          <div class="item-i__up">
+                            <div class="up-i__fhoto">
+                              <div class="fhoto__content">
+                                <img src="./img/SliderPhoto[3].jpg" alt="фото">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="item-i__down">
+                            <div class="down__wrapper">
+                              <div class="down__date">14/1/2020</div>
+                              <div class="down__title">Semper eu pulvinar eget integer</div>
+                              <div class="down__description">Pretium duis phasellus netus ac. Nunc nibh nunc integer 
+                                feugiat et aliquam cras. Amet pharetra montes ipsum gravida tellus tellus.</div>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="itc-slider__item">
+                      <div class="item-i">
+                        <div class="item-i__wrapper">
+                          <div class="item-i__up">
+                            <div class="up-i__fhoto">
+                              <div class="fhoto__content">
+                                <img src="./img/SliderPhoto[4].jpg" alt="фото">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="item-i__down">
+                            <div class="down__wrapper">
+                              <div class="down__date">2/1/2020</div>
+                              <div class="down__title">Semper eu pulvinar eget integer semper eu pulvinar eget integer</div>
+                              <div class="down__description">Pretium duis phasellus netus ac. Nunc nibh nunc integer 
+                                feugiat et aliquam cras. Amet pharetra montes ipsum gravida tellus tellus.</div>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="itc-slider__item">
+                      <div class="item-i">
+                        <div class="item-i__wrapper">
+                          <div class="item-i__up">
+                            <div class="up-i__fhoto">
+                              <div class="fhoto__content">
+                                <img src="./img/SliderPhoto[5].jpg" alt="фото">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="item-i__down">
+                            <div class="down__wrapper">
+                              <div class="down__date">5/2/2020</div>
+                              <div class="down__title">Semper eu pulvinar eget integer</div>
+                              <div class="down__description">Pretium duis phasellus netus ac. Nunc nibh nunc integer 
+                                feugiat et aliquam cras. Amet pharetra montes ipsum gravida tellus tellus.</div>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="itc-slider__buttons">
+                  <button class="itc-slider__btn itc-slider__btn_prev">
+                    <div class="triangle-left"></div>
+                  </button>
+                  <button class="itc-slider__btn itc-slider__btn_next">
+                    <div class="triangle-right"></div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="footer" id="footer">
+        <div class="footer__wrapper">
+                <div class="footer__part">
+                    <div class="part__title part__title-style">ИФОРМАЦИЯ О ЮР. ЛИЦЕ</div>
+                    <div class="part__list flex-c">
+                        <div class="part__list-item"><a href="#">ОГРН 11111111111111111</a></div>
+                        <div class="part__list-item"><a href="#">ИНН 2222222222222</a></div>
+                        <div class="part__list-item"><a href="#">КПП 3333333333333</a></div>
+                        <div class="part__list-item"><a href="#">ОКПО 44444444444 ОКВЭД 52.24</a></div>
+                        <div class="part__list-item"><a href="#">ОКТМО 5555555555555</a></div>
+                    </div>
+                </div>
+                <div class="footer__part">
+                    <div class="part__title part__title-style">ИФОРМАЦИЯ О ЮР. ЛИЦЕ</div>
+                    <div class="part__list flex-c">
+                        <div class="part__list-item"><a href="#">Нормативные документы</a></div>
+                        <div class="part__list-item"><a href="#">Закупки на VISMA Order</a></div>
+                        <div class="part__list-item"><a href="#">Закупки на VISMA Tender</a></div>
+                    </div>
+                </div>
+                <div class="footer__part">
+                    <div class="part__title part__title-style">ИФОРМАЦИЯ О ЮР. ЛИЦЕ</div>
+                    <div class="part__list flex-c">
+                        <div class="part__list-item"><a href="#">Устав VISMA</a></div>
+                        <div class="part__list-item"><a href="#">Свидетельства госрегистрации</a></div>
+                        <div class="part__list-item"><a href="#">Список аффилированных лиц</a></div>
+                        <div class="part__list-item"><a href="#">Информация</a></div>
+                        <div class="part__list-item"><a href="#">Отчеты</a></div>
+                    </div>
+                </div>
+                <div class="footer__part">
+                    <div class="part__title part__title-style">ИФОРМАЦИЯ О ЮР. ЛИЦЕ</div>
+                    <div class="part__list flex-c">
+                        <div class="part__list-item"><a href="#">Порт сегодня</a></div>
+                        <div class="part__list-item"><a href="#">Характеристики порта</a></div>
+                        <div class="part__list-item"><a href="#">История</a></div>
+                        <div class="part__list-item"><a href="#">Дипломы и награды</a></div>
+                        <div class="part__list-item"><a href="#">Транспортная безопасность</a></div>
+                        <div class="part__list-item"><a href="#">Экология</a></div>
+                        <div class="part__list-item"><a href="#">Правовая информация</a></div>
+                    </div>
+                </div>
+        </div>
+        <div class="footer__down">
+            <div class="f-down__wrapper">
+                <span class="f-down__content">ВСЕ ПРАВА ЗАЩИЩЕНЫ АО VISMA</span>
+            </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <!--<script src="./interactive_elements/dropdown/popper.min.js"></script>
+    <script defer src="./interactive_elements/SimpleAdaptiveSlider/simple-adaptive-slider.js"></script>
+    <script src="./interactive_elements/SimpleAdaptiveSlider/simple-adaptive-slider-options.js"></script>
+    <script src="./interactive_elements/Another Slider/anotherSliderOptions.js"></script>-->
+    <script src="./interactive_elements/Another Slider/anotherSlider.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
